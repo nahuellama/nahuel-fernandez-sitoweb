@@ -1,0 +1,329 @@
+body { background-color:white;
+    color: black;
+    font-family: "Kantumruy", sans-serif;} 
+    
+img {
+    max-width: 100%;
+    display: block;}
+    
+       
+    header {
+        max-width: 100%;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        font-family: "League Spartan" sans-serif;
+        font-weight:700;
+        background-color: #61F6FF;
+        align-items: center;
+        }
+        header p {
+            font-size: 40px;
+            font-family: "League Spartan" sans-serif;
+            font-weight: bold;
+           margin-top: 0px;
+           margin-bottom: 0px;}
+
+        header nav ul {
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        align-items: center;}
+
+        header nav ul a{
+            text-decoration: none; 
+            color: #000;
+            font-size: 24px;}
+
+
+
+        
+        section.hero img {
+        width: 100%;}
+
+        section.hero {
+            height:1883px;
+            position: relative;}
+
+        section.hero img {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;}
+        
+        section.hero h1 {
+            color: #000;
+            text-align: center;
+            font-family: "Kantumruy" sans-serif;
+            font-size: 55px;
+            font-weight: bold;
+            line-height: 237%; /* 130.35px */
+            letter-spacing: -1.265px;
+            position: absolute;
+            bottom: 20px;
+            right: 200px;}
+
+         
+         
+            section.paragrafo-1 {
+            display: flex;
+            max-width: 100%;
+            height: 751px;
+            font-size: 24px;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            color: #000;
+            background-color: #61F6FF;
+            font-family: "Kantumruy" sans-serif;
+            font-weight: bold;}
+
+            section.paragrafo-1 p {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            font-size: 18px;}
+
+    
+            
+
+
+            section.chiusura {
+            display: flex;
+            max-width: 100%;
+            height: 550px;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            background: #61F6FF;
+            font-weight: bold;
+            font-size: 32px;}
+
+            section.chiusura p {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+                font-size: 20px;}
+
+
+        
+        section div.card-1 {
+          display: flex;
+          margin: 50px;
+          background-color: #61F6FF;
+            }
+
+        section div.card-1 img {
+            width: 690px;
+            height: 499px;
+            flex-shrink: 0;
+            margin: 20px 60px 20px 20px;}
+
+        section div.card-1 h2 {
+                width: 490px;
+                height: 27px;
+                flex-shrink: 0; }
+                
+         section div.card-1 p {
+            width: 370px;
+            height: 384px;
+            flex-shrink: 0;}
+
+            section div.card-2 {
+                display: flex;
+                margin: 50px;
+                background-color: #61F6FF;}
+      
+            section div.card-2 img {
+                  width: 690px;
+                  height: 499px;
+                  flex-shrink: 0;
+                  margin: 20px 60px 20px 20px;}
+      
+            section div.card-2 h2 {
+                      width: 490px; }
+                      
+            section div.card-2 p {
+                  width: 370px;
+                  height: 384px;
+        }
+            
+        
+        footer section.description {
+           display: flex;
+           flex-direction: column;
+           align-items: center;}
+
+           footer section.description p.testo {
+            width:80%;}
+
+
+
+           footer section.description div.email-subscribe {
+            display:flex;
+            justify-content: space-between;
+            width: 70%;
+            align-items: center;}
+
+
+            footer section.description div p {
+                border: 10px solid #000;
+                max-width: 100%;}
+
+            footer section.description div p.email {
+                font-size: 24px;
+                padding: 30px 600px 30px 30px;}
+
+            footer section.description div p.subscribe {
+                    padding:30px 30px 30px 30px;
+                    font-size: 24px; }
+
+            footer section.info {
+                max-width: 100%;
+                margin:auto;
+                display:flex;
+                justify-content: space-between;
+                border: solid black 10px;
+                align-items: center;}
+
+             footer section.info img {
+                    width: 48.068px;
+                    height: 46.115px;
+                    flex-shrink: 0;
+                }
+
+            footer section.info p {
+                font-size: 40px;
+                font-family: "League Spartan" sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: 60px;
+                 }
+
+            footer section.info nav ul {
+                display: flex;
+                list-style-type: none;
+                gap: 20px;
+                align-items: center;
+            }
+
+            footer section.info nav ul a {
+                text-decoration: none; ;
+                color: #000;
+                font-size: 24px;
+                align-content: center;
+                margin-right: 80px;
+                 }
+
+                
+                
+                
+                 @media (max-width: 600px) {
+
+                    header p {
+                        font-size: 20px;}
+                    
+                    header nav ul a {
+                        font-size: 12px;}
+
+                     section.paragrafo-1 p {       
+                        width: 100%;
+                        font-size: 20px;
+                        }
+
+                   
+                     section div.card-1 {
+                        width: auto;
+                        flex-direction: column;
+                        margin: 30px;}
+
+                    section div.card-1 img {
+                        margin: 0px;
+                        max-width: 100%;
+                        height: auto;}
+                    
+                        section div.card-1 h2 {
+                        margin-left: 50px;}
+                    
+                        section div.card-1 p {
+                        margin-left: 50px;
+                   }
+
+                   
+                    section div.card-2 {
+                        width: auto;
+                        flex-direction: column;
+                        margin: 30px;}
+
+                    section div.card-2 img {
+                        margin: 0px;
+                        max-width: 100%;
+                        height: auto;}
+                    
+                    section div.card-2 h2 {
+                        margin-left: 50px;
+                    width: auto;}
+
+                    section div.card-2 p {
+                        margin-left: 50px;
+                        ;}
+
+
+                        footer section.info nav ul a {
+                            font-size: 15px;
+                            
+                        }
+
+                    
+
+                        footer section.info p {
+                            font-size: 15px;
+                            margin: 5px;
+                        }
+
+                        footer section.info nav ul {
+                            gap: 5px;
+                            padding: auto;
+                            
+                            
+                            
+                           
+                        }
+
+                        footer section.description div p.email {
+                            font-size: 15px;
+                            padding: 15px 300px 15px 15px;
+                            margin: 10px 10px 10px 3px;
+
+                        }
+
+                        footer section.description div p.subscribe {
+                            font-size: 15px;
+                            padding: 15px;
+                        }
+
+                        footer section.description div.email-subscribe {
+                            width: auto;
+                        }
+
+                        
+
+
+
+
+
+
+
+
+
+                   
+
+                 }
+
+                  
+
+
